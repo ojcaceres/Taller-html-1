@@ -1,7 +1,22 @@
 h1, h2 {
   font-family: Lato;
 }
-#enc{background: greenyellow}
-a[href="www.uniandes.edu.co"]{
-  color: green;
+#tit{background: rgba(255, 0, 0, 0.8); color:white; 
+font-weight: bold; text-align: center; position: static;}
+
+.photo{
+  width: 100 px;
+  max-width:100%;width:auto;height:auto;
 }
+#inf{
+  max-width: 49%;
+}
+#infu{
+  max-width: 49%;
+}
+div{
+  display: inline-block;
+
+
+}
+
