@@ -12,11 +12,11 @@ font-weight: bold; text-align: center; position: static;}
   max-width: 49%;
 }
 #infu{
+  vertical-align: top;
   max-width: 49%;
 }
 div{
   display: inline-block;
-
-
 }
+
 
