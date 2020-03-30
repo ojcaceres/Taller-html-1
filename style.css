@@ -2,21 +2,51 @@ h1, h2 {
   font-family: Lato;
 }
 #tit{background: rgba(255, 0, 0, 0.8); color:white; 
-font-weight: bold; text-align: center; position: static;}
+font-weight: bold; text-align: center; position: static;
+max-width:99%;width:auto;height:auto;}
 
 .photo{
-  width: 100 px;
-  max-width:100%;width:auto;height:auto;
+
+  max-width:99%;width:auto;height:auto;
 }
 #inf{
-  max-width: 49%;
+  box-sizing: border-box;
+  max-width: 50%;
+  background-color: peachpuff;
+   border-collapse: separate;
+   height: 300px;
+
+
 }
 #infu{
+   height: 300px;
   vertical-align: top;
-  max-width: 49%;
+min-width: 48.5%;
+  
+  background-color: rgb(255,139,0);
+     column-fill: balance
+  
+}
+#info{
+  vertical-align: top;
+  max-width: 100%;
+   
 }
 div{
   display: inline-block;
+  
 }
+#l{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#t1{
+  text-align: center;
+}
+#t2{
+  text-align: center;
+}
+
 
 
